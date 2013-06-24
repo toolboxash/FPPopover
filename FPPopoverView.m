@@ -12,7 +12,7 @@
 
 #define FP_POPOVER_ARROW_HEIGHT 20.0
 #define FP_POPOVER_ARROW_BASE 20.0
-#define FP_POPOVER_RADIUS 10.0
+#define FP_POPOVER_RADIUS 0.0
 
 //iVars
 @interface FPPopoverView()
@@ -73,7 +73,7 @@
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         _titleLabel.backgroundColor = [UIColor clearColor];
         _titleLabel.textColor = [UIColor whiteColor];
-        _titleLabel.textAlignment = NSTextAlignmentCenter;
+        _titleLabel.textAlignment = NSTextAlignmentLeft;
         _titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:16];
         
         self.tint = FPPopoverDefaultTint;
