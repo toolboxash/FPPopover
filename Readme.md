@@ -1,3 +1,7 @@
+How To
+========
+<a href="http://www.poeticoding.com/fppopover-a-customizable-uipopovercontroller-for-iphone-and-ipad/">FPPopover, a customizable UIPopoverController for iPhone and iPad</a>
+
 FPPopover
 ========
 This library provides an alternative to the native iOS UIPopoverController, 
